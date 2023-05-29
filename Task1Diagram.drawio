@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-05-28T21:37:54.072Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.5" etag="eBStuib33N89yp0a7Bv-" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-29T06:18:41.621Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="GPatwbA-mUAzyzjfm3-q" version="21.3.5" type="github">
   <diagram name="Page-1" id="s6n8w3cFn9AApGPmrtuN">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="v7nquU6ssHY5xr4tODw2-1" value="&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;div&gt;&lt;/div&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;start&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;span id=&quot;docs-internal-guid-3b141b4f-7fff-6670-2183-d576d27cafa1&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v7nquU6ssHY5xr4tODw2-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="409.5" y="210" as="sourcePoint" />
+            <mxPoint x="409.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v7nquU6ssHY5xr4tODw2-16" value="&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;printf(&quot;Enter numbers to be added (enter a negative number to stop):\n&quot;);&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&amp;nbsp; &amp;nbsp; //using while loop by first reading the value from the keyboard&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&amp;nbsp; &amp;nbsp; while (1) {&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; scanf(&quot;%d&quot;, &amp;amp;num);&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (num &amp;lt; 0) {&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; break;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; sum += num;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;span id=&quot;docs-internal-guid-553feb8f-7fff-c5f9-0ed7-9850c65f0fa8&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="410" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="v7nquU6ssHY5xr4tODw2-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="409.5" y="480" as="sourcePoint" />
+            <mxPoint x="409.5" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="409.5" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v7nquU6ssHY5xr4tODw2-18" value="&lt;div&gt;//print and display the outcome&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;The sum is: %d\n&quot;, sum);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="540" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="v7nquU6ssHY5xr4tODw2-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="v7nquU6ssHY5xr4tODw2-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="409.5" y="650" as="sourcePoint" />
+            <mxPoint x="409.5" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v7nquU6ssHY5xr4tODw2-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="v7nquU6ssHY5xr4tODw2-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="409.5" y="650" as="sourcePoint" />
+            <mxPoint x="409.5" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v7nquU6ssHY5xr4tODw2-21" value="end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="710" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v7nquU6ssHY5xr4tODw2-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="v7nquU6ssHY5xr4tODw2-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="60" as="sourcePoint" />
+            <mxPoint x="409.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v7nquU6ssHY5xr4tODw2-5" value="&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;int main() {&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;//declarea the variables&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&amp;nbsp; &amp;nbsp; int num,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Arial&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;sum = 0;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;span id=&quot;docs-internal-guid-2f5541a1-7fff-71c8-a62d-c8c3497b9134&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="80" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="v7nquU6ssHY5xr4tODw2-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="409.5" y="40" as="sourcePoint" />
+            <mxPoint x="409.5" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
